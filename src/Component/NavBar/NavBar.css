@@ -46,6 +46,23 @@ nav{
 .user-icon{
     border-radius:50%;
 }
+.search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-icon {
+    width: 20px;
+    height: auto;
+  }
+  input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+input[type="search"] {
+    -moz-appearance: textfield;
+}
 @media (max-width:900px) {
     .menu-icon{
         display: none;
